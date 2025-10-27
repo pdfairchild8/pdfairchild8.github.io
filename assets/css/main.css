@@ -113,6 +113,15 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+	.row {
+  		display: flex;
+	}
+
+	.column {
+		flex: 50%;
+	}
+
+
 /* Type */
 
 	html {
@@ -2797,6 +2806,14 @@ input, select, textarea {
 						}
 
 		}
+	
+	ul.no-bullets {
+		list-style-type: none; /* Remove bullets */
+		padding: 0; /* Remove padding */
+		margin: 0; /* Remove margins */
+		text-align: left;
+		font-size: 12px;
+	}
 
 /* Icons */
 
@@ -4687,3 +4704,5 @@ input, select, textarea {
 		}
 
 	}
+
+	
